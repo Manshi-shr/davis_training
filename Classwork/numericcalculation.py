@@ -1,14 +1,31 @@
-num1=10
-num2=5
+# Function definitions
 
-#addition of numbers
-print("Sum of ",num1, " and ",num2," is: ",num1+num2)
+def addNumbers(m, n):
+    return m + n
 
-#subtraction of numbers
-print("Subtraction of ",num1, " and ",num2," is: ",num1-num2)
+def difference(m, n):
+    return m - b\n
 
-#Division of numbers
-print("Division of ",num1, " and ",num2," is: ",num1/num2)
+def calculateProduct(m, n):
+    return m * n
 
-#multiplication of numbers
-print("Multiplication of ",num1, " and ",num2," is: ",num1*num2)
+def divide(m, n):
+    if n == 0:
+        return "Error! Division by zero is not allowed."
+    return m / n
+
+def modulus(m, n):
+    if n == 0:
+        return "Error! Modulus by zero is not allowed."
+    return m % n
+
+
+# Main program
+m=10
+n=5
+
+print("Addition:", addNumbers(m, n))
+print("Difference:", difference(m, n))
+print("Multiplication:", calculateProduct(m, n))
+print("Division:", divide(m, n))
+print("Modulus:", modulus(m, n))
