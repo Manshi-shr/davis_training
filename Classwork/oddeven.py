@@ -4,5 +4,5 @@ def oddeven(num):
         print(num," is an even number")
     else:
         print(num," is odd number")
-num = int(input("enter a number :"))
+num = int(input("enter a number"))
 oddeven(num)
