@@ -13,8 +13,6 @@
 #stop
 
 
-# Open source file in read mode
-source = open("source.txt", "r")
 
 # Open destination file in write mode
 destination = open("destination.txt", "w")
